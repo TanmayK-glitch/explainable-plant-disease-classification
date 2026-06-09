@@ -1,0 +1,229 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.ipynb_metadata
+*.pkl
+*.pickle
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+# poetry
+poetry.lock
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.venv.bak/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
+*.code-workspace
+
+# Jupyter Lab
+.jupyter/
+
+# Kaggle API credentials (IMPORTANT!)
+.kaggle/
+kaggle.json
+access_token
+*.json
+
+# Data files (large datasets - keep only if tracking via DVC or similar)
+data/raw/
+data/processed/
+data/augmented/
+*.zip
+*.tar
+*.gz
+*.7z
+*.csv
+*.xlsx
+*.parquet
+*.h5
+*.hdf5
+*.db
+*.sqlite3
+
+# Model files (large binaries)
+*.h5
+*.hdf5
+*.pb
+*.ckpt
+*.pth
+*.pt
+*.pkl
+*.joblib
+*.model
+*.weights
+*.bin
+*.onnx
+*.tflite
+models/
+saved_models/
+checkpoints/
+*.log
+
+# Outputs and reports
+outputs/
+reports/
+figures/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.html
+*.mp4
+*.gif
+wandb/
+mlruns/
+tensorboard_logs/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Docker
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# Logs
+*.log
+logs/
+
+# Cloud storage and sync
+.aws/
+.gcloud/
+.azure/
+*.rds
+
+# Notebook cells outputs (if you want to keep structure but clear outputs)
+# Uncomment if you use nbstripout
+# *.ipynb_filtered
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# Project specific - dataset verification files
+*.checksum
+*.md5
+*.sha256
+
+# Large media or document assets (if any)
+*.mp3
+*.mp4
+*.mov
+*.avi
+*.pdf
+*.pptx
+
+# Backup files from editors
+.*.swp
+.*.swo
+*~
+*.backup
+*.cache
+
+# Compiled Python files from training scripts
+*.pyc
+
+# Experiment tracking
+experiments/
+runs/
