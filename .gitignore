@@ -98,6 +98,10 @@ venv.bak/
 *.njsproj
 *.sln
 *.sw?
+
+# Allow models and outputs folders to be tracked
+!models/
+!outputs/
 .project
 .classpath
 .settings/
